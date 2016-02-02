@@ -33,13 +33,13 @@ if (isset($_POST['submit'])) {
 	}
 
 	if (!$errores) {
-		$enviar_a = 'correo@tucorreo.com';
+		$enviar_a = 'web-KvULF4@mail-tester.com';
 		$asunto = 'Correo enviado desde miPagina.com';
 		$mensaje_preparado = "De: $nombre \n";
 		$mensaje_preparado .= "Correo: $correo \n";
 		$mensaje_preparado .= "Mensaje: " . $mensaje;
 
-		//mail($enviar_a, $asunto, $mensaje_preparado);
+		mail($enviar_a, $asunto, $mensaje_preparado);
 		$enviado = true;
 	}
 
