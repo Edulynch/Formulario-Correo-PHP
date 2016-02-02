@@ -1,8 +1,8 @@
 # Bienvenidos a **Formulario-Correo-PHP** wiki!
 
-## Demo: [http://basicmail.herokuapp.com/](http://basicmail.herokuapp.com/)
-
-### El envio de correos no funciona desde aqui, es solo para mostrar el diseño.
+## Demo: [http://edulynch.comlu.com/basicmail/](http://edulynch.comlu.com/basicmail/)
+## Testeado con http://www.mail-tester.com/
+##Reporte: [http://www.mail-tester.com/web-jUfVom](http://www.mail-tester.com/web-jUfVom)
 
 ## Captura
 
@@ -13,3 +13,5 @@
 ### $enviar_a = 'correo@tucorreo.com';
 ### $asunto = 'Correo enviado desde miPagina.com';
 2.- subirlos a un hosting que acepte el envio de correos.
+El hosting que use para probarlo y funciona perfectamente es
+[https://www.000webhost.com/](https://www.000webhost.com/)
